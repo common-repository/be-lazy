@@ -1,0 +1,31 @@
+#adminmenu .toplevel_page_be-lazy {
+	.wp-menu-image img {
+		width: 32px;
+		height: 22px;
+		padding: 6px 0 0;
+	}
+
+	&.current .wp-menu-image img {
+		opacity: 1;
+
+	}
+}
+
+.form-table td fieldset label.inline {
+	margin-right: 24px !important;
+}
+
+.column-be-lazy {
+	vertical-align: middle !important;
+
+	img {
+		opacity: .4;
+		height: 28px;
+		transition: opacity .2s;
+		cursor: pointer;
+
+		&.active {
+			opacity: 1;
+		}
+	}
+}
